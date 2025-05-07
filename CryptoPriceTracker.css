@@ -1,0 +1,98 @@
+.crypto-container {
+    max-width: 900px;
+    margin: auto;
+    padding: 24px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  
+  /* Price Header */
+  .price-title {
+    font-size: 32px;
+    font-weight: 600;
+    margin-bottom: 4px;
+  }
+  
+  .price-change {
+    color: green;
+    font-size: 14px;
+    font-weight: 500;
+  }
+  
+  /* Unified Toolbar */
+  .toolbar-full {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 8px 12px;
+    border: 1px solid #dcdcdc;
+    border-radius: 12px;
+    background-color: #fff;
+    margin-top: 24px;
+  }
+  
+  .toolbar-left,
+.toolbar-tabs {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+  
+  .toolbar-button {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    border: 1px solid #dcdcdc;
+    padding: 4px 10px;
+    background-color: white;
+    font-size: 12px;
+    border-radius: 6px;
+    color: #333;
+    cursor: pointer;
+    font-weight: 400;
+    transition: background 0.2s ease;
+  }
+  
+  .toolbar-button:hover {
+    background-color: #f5f5f5;
+  }
+  
+  /* Date Tabs */
+  .toolbar-tabs {
+    display: flex;
+    gap: 8px;
+  }
+  
+  .tab-button {
+    padding: 6px 14px;
+    border-radius: 20px;
+    background-color: #f1f1f1;
+    border: none;
+    font-size: 13px;
+    color: #333;
+    cursor: pointer;
+    transition: background 0.2s ease;
+  }
+  
+  .tab-button.active {
+    background-color: #4f46e5;
+    color: #fff;
+  }
+  
+  .tab-button:hover {
+    background-color: #e2e2e2;
+  }
+  
+  /* Chart Placeholder */
+  .chart-placeholder {
+    height: 300px;
+    background: #fafafa;
+    border: 2px dashed #ccc;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 8px;
+    margin-top: 16px;
+    color: #444;
+    font-size: 14px;
+  }
+  
